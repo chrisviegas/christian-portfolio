@@ -78,7 +78,7 @@ const Hero = () => {
                                 {'\n'}
                                 <span className="decorator">@app.get</span>(<span className="string">"/api/hello/&#123;name&#125;"</span>){'\n'}
                                 <span className="keyword">async def</span> <span className="function">say_hello</span>(name: <span className="keyword">str</span>):{'\n'}
-                                    <span className="keyword">return</span> &#123;<span className="string">"message"</span>: <span className="string">f"Hello, &#123;name&#125;!"</span>&#125;
+                                    {'    '}<span className="keyword">return</span> &#123;<span className="string">"message"</span>: <span className="string">f"Hello, &#123;name&#125;!"</span>&#125;
                             </code></pre>
                             
                             <div className="interactive-console">
